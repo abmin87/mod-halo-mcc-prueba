@@ -1,7 +1,7 @@
 // UWP_SplitScreenMod_Complete.cpp
 // Versión completa — soporte split-screen real para 2 jugadores (hooks XInput + Present)
 // Incluye: mapeo dinámico de gamepads -> jugadores, limpieza en DLL_PROCESS_DETACH,
-// logging por frame, y stubs de integración con estructuras internas del motor (comentados para completar).
+// logging por frame, y stubs de integración con estructuras internas del motor.
 
 #include "pch.h"
 #include "UWP_Detection.h"
