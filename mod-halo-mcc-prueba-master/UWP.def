@@ -1,0 +1,11 @@
+LIBRARY wtsapi32
+EXPORTS
+    WTSQuerySessionInformationW = Proxy_WTSQuerySessionInformationW
+    WTSQuerySessionInformationA = Proxy_WTSQuerySessionInformationA
+    WTSFreeMemory = Proxy_WTSFreeMemory
+    WTSEnumerateSessionsW = Proxy_WTSEnumerateSessionsW
+    WTSEnumerateSessionsA = Proxy_WTSEnumerateSessionsA
+    WTSGetActiveConsoleSessionId = Proxy_WTSGetActiveConsoleSessionId
+    WTSQueryUserToken = Proxy_WTSQueryUserToken
+    WTSRegisterSessionNotification = Proxy_WTSRegisterSessionNotification
+    WTSUnRegisterSessionNotification = Proxy_WTSUnRegisterSessionNotification
